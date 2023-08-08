@@ -23,5 +23,5 @@ jobs:
         run: java -jar bikatask-0.0.1-SNAPSHOT.jar
 
 concurrency:
-  group: ${{ github.head_ref || github.ref_name }} 
+  group: ${{ github.head_ref || github.ref_name }}  - hello world
   cancel-in-progress: true
